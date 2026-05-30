@@ -1,0 +1,37 @@
+{
+  "name": "operator-samples",
+  "owner": {
+    "name": "Operator",
+    "url": "https://github.com/optr-ai"
+  },
+  "metadata": {
+    "description": "Sample plugins for the Operator Platform — start with hal-9001 to learn the basics, then move on to discovery-one for the advanced capabilities.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "hal-9001",
+      "source": "./plugins/hal-9001",
+      "displayName": "HAL-9001",
+      "description": "Minimal sample — one agent, one skill. The fastest path to seeing a plugin install on the Operator Platform.",
+      "version": "0.1.0",
+      "author": { "name": "Operator", "url": "https://github.com/optr-ai" },
+      "homepage": "https://github.com/optr-ai/samples-optr-plugin-hal-9001",
+      "license": "MIT",
+      "category": "samples",
+      "tags": ["sample", "hello-world", "hal-9001"]
+    },
+    {
+      "name": "discovery-one",
+      "source": "./plugins/discovery-one",
+      "displayName": "Discovery One",
+      "description": "Advanced sample — schedules, sub-agents, and platform tools. Every 5 minutes HAL runs the AE-35 Unit diagnostic and reports back in classic deadpan style.",
+      "version": "0.1.0",
+      "author": { "name": "Operator", "url": "https://github.com/optr-ai" },
+      "homepage": "https://github.com/optr-ai/samples-optr-plugin-hal-9001",
+      "license": "MIT",
+      "category": "samples",
+      "tags": ["sample", "advanced", "schedules", "subagents", "tools"]
+    }
+  ]
+}

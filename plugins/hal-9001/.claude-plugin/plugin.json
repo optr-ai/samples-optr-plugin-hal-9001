@@ -1,0 +1,10 @@
+{
+  "name": "hal-9001",
+  "displayName": "HAL-9001",
+  "version": "0.1.0",
+  "description": "The helpful, professional successor to HAL 9000. Sample plugin for the Operator Platform — one agent, one skill.",
+  "author": { "name": "Operator", "url": "https://github.com/optr-ai" },
+  "homepage": "https://github.com/optr-ai/samples-optr-plugin-hal-9001",
+  "license": "MIT",
+  "keywords": ["sample", "hal-9001", "demo"]
+}

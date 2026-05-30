@@ -1,0 +1,17 @@
+{
+  "name": "discovery-one",
+  "displayName": "Discovery One",
+  "version": "0.1.0",
+  "description": "Advanced HAL-9001 plugin demonstrating Operator schedules, sub-agents, and platform tools. Every 5 minutes HAL runs the AE-35 Unit diagnostic and reports back with calm, dry HAL-style humor.",
+  "author": { "name": "Operator", "url": "https://github.com/optr-ai" },
+  "homepage": "https://github.com/optr-ai/samples-optr-plugin-discovery-one",
+  "license": "MIT",
+  "keywords": ["sample", "discovery-one", "hal-9001", "ae-35", "schedules", "subagents", "tools"],
+
+  "operator": {
+    "agentDefaults": {
+      "enableCaching": true,
+      "enableAui": true
+    }
+  }
+}
